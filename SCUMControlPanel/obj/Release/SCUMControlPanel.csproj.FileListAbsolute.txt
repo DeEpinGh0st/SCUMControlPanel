@@ -1,0 +1,7 @@
+D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\bin\Release\SCUMControlPanel.exe
+D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Release\SCUMControlPanel.About.resources
+D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Release\SCUMControlPanel.Main.resources
+D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Release\SCUMControlPanel.Properties.Resources.resources
+D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Release\SCUMControlPanel.csproj.GenerateResource.cache
+D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Release\SCUMControlPanel.csproj.CoreCompileInputs.cache
+D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Release\SCUMControlPanel.exe
