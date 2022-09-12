@@ -5,6 +5,7 @@ using System.IO;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using WebKit;
 
 namespace SCUMControlPanel
 {
@@ -65,14 +66,20 @@ namespace SCUMControlPanel
                         Setting_dataGridView.Rows[index].Cells[0].Value = section;
                         Setting_dataGridView.Rows[index].ReadOnly = true;
                         Setting_dataGridView.Rows[index].DefaultCellStyle.BackColor = Color.BurlyWood;
-                        Setting_dataGridView.Rows[index].Cells[1].Value = TranslateKeys[section];
+                        Setting_dataGridView.Rows[index].Cells[1].Value = "新增配置";
+                        if (TranslateKeys.ContainsKey(section)) {
+                            Setting_dataGridView.Rows[index].Cells[1].Value = TranslateKeys[section];
+                        }
                         List<string> Keys = OperateIniFile.ReadKeys(section);
                         foreach (var key in Keys)
                         {
                             index = Setting_dataGridView.Rows.Add();
                             Setting_dataGridView.Rows[index].Cells[0].Value = key;
                             string Value = Convert.ToString(OperateIniFile.ReadIniData(section, key, ""));
-                            Setting_dataGridView.Rows[index].Cells[1].Value = TranslateKeys[key];
+                            Setting_dataGridView.Rows[index].Cells[1].Value = "新增项";
+                            if (TranslateKeys.ContainsKey(key)) {
+                                Setting_dataGridView.Rows[index].Cells[1].Value = TranslateKeys[key];
+                            }
                             Setting_dataGridView.Rows[index].Cells[2].Value = Value;
                         }
 
@@ -214,6 +221,27 @@ namespace SCUMControlPanel
                 Setting_groupBox.Text = string.Format("{0} - {1}", DisplayPrefix, filename);
             }
             return;
+        }
+
+        private void CopyPropToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int index = Setting_dataGridView.CurrentRow.Index;
+            Clipboard.SetDataObject(Setting_dataGridView.Rows[index].Cells[0].Value);
+        }
+
+        private void OpenCHS_Btn_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(TranslateFilePath);
+        }
+
+        private void DeepLlinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.deepl.com/translator");
+        }
+
+        private void BaidulinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://fanyi.baidu.com");
         }
     }
 }

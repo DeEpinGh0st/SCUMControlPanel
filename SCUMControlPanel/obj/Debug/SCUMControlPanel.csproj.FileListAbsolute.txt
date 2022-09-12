@@ -18,3 +18,16 @@ D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj
 D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.pdb
 G:\坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.About.resources
 D:\我的坚果云\我的坚果云\Project\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.About.resources
+G:\C#\SCUMControlPanel\SCUMControlPanel\bin\Debug\SCUMControlPanel.exe
+G:\C#\SCUMControlPanel\SCUMControlPanel\bin\Debug\SCUMControlPanel.pdb
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.csproj.AssemblyReference.cache
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.About.resources
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.Main.resources
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.Properties.Resources.resources
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.csproj.GenerateResource.cache
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.csproj.CoreCompileInputs.cache
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.exe
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.pdb
+G:\C#\SCUMControlPanel\SCUMControlPanel\bin\Debug\WebKit.Interop.dll
+G:\C#\SCUMControlPanel\SCUMControlPanel\bin\Debug\stdole.dll
+G:\C#\SCUMControlPanel\SCUMControlPanel\obj\Debug\SCUMControlPanel.csproj.CopyComplete
